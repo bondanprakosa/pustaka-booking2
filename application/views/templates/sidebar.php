@@ -1,4 +1,4 @@
-        <!-- Sidebar -->
+ <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
@@ -12,7 +12,7 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-           
+
 
             <!-- Looping Menu-->
                 <div class="sidebar-heading">
@@ -22,7 +22,8 @@
                         <!-- Nav Item - Dashboard -->
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('admin'); ?>">
-                                <i class="fast fa-tachometer-alt"></i>
+                                <!--<i class="fa fa-fw fa book"></i>-->
+                                <i class="fas fa-tachometer-alt"></i>
                                 <span>Dashboard</span></a>
                         </li>
                     </li>
@@ -39,17 +40,20 @@
                         <!-- Nav Item - Dashboard -->
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
-                                <i class="fas fa-book"></i>
+                              <i class="fas fa-book"></i>
+                               <!--  <i class="fa fa-fw fa book"></i>-->
                                 <span>Kategori Buku</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-                                <i class="fa fa-address-book"></i>
+                              <!--<i class="fa fa-fw fa book"></i>-->
+                                    <i class="fas fa-address-book"></i>
                                 <span>Data Buku</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-                                <i class="fa fa-users"></i>
+                            <i class="fas fa-users"></i>
+
                                 <span>Data Anggota</span></a>
                         </li>
                     </li>
@@ -62,6 +66,4 @@
             </div>
 
         </ul>
-        <!-- End of Sidebar --   > 
-        
-        
+        <!-- End of Sidebar --   >
